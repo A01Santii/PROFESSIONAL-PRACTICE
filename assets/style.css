@@ -282,3 +282,123 @@ section p {
         display: none; /* Simplificación para el ejemplo, se podría implementar un menú hamburguesa */
     }
 }
+
+
+/* --- ESTILOS PARA LA PÁGINA DE REGISTRO --- */
+/* --- Añadir al final del archivo style.css --- */
+
+.registration-body {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.registration-container {
+    background-color: var(--background-color);
+    width: 90%;
+    max-width: 450px;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.registration-header .logo {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.registration-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-text);
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.registration-header p {
+    color: #666;
+    margin-bottom: 2.5rem;
+}
+
+.registration-form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--dark-text);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(106, 17, 203, 0.2);
+}
+
+.terms-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.terms-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary-color);
+}
+
+.terms-group a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.terms-group a:hover {
+    text-decoration: underline;
+}
+
+.cta-button.full-width {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    animation: none; /* Quitamos la animación de pulso para este botón */
+}
+
+.login-link {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
