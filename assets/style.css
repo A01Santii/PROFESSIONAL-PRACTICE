@@ -402,3 +402,25 @@ section p {
 .login-link a:hover {
     text-decoration: underline;
 }
+
+/* --- ESTILO PARA EL BOTÓN DE REGISTRO EN LA NAVEGACIÓN --- */
+
+.main-nav .nav-button {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.main-nav .nav-button:hover {
+    color: white; /* Aseguramos que el texto siga blanco */
+    transform: translateY(-2px);
+    background: var(--secondary-color);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Evita que aparezca la línea animada debajo del botón */
+.main-nav .nav-button::after {
+    content: none;
+}
