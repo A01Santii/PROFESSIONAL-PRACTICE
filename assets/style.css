@@ -166,6 +166,9 @@ body {
     transform: translateY(-3px);
 }
 
+.cta-section p {
+    margin-bottom: 40px;
+}
 
 /* --- Secciones de Contenido --- */
 .content-section, .features-section, .cta-section, .content-section-dark {
